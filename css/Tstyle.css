@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: greenyellow;
+    padding: 26px;
+    border-bottom: 2px solid red;
+    
+}
+    
+    header span{
+    color: red;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.sectiona{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .nav a{
+        text-decoration: none;
+        color:black;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+        flex: 1;
+    }
+    .logo{
+        width: 30%;
+    }
+    .sectionb{
+        text-align: center;
+
+        min-height: 500px;
+    }
+    .showcase{
+        background-image: url(../image/tajmahal2.jpg);
+        background-repeat: no-repeat;
+        background-position-y:-100px ;
+    }
